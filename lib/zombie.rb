@@ -1,3 +1,4 @@
+# describe class zombie
 class Zombie
   attr_accessor :name, :brains, :alive, :rotting, :height
 
@@ -8,5 +9,4 @@ class Zombie
     @rotting = true
     @height = 5
   end
-
 end
